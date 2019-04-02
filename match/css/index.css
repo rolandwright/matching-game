@@ -1,0 +1,22 @@
+.match-card {
+    padding: 10px;
+}
+.card-border {
+    border: 2px solid #000;
+    text-align: center;
+    font-size: 34px;
+}
+.card-border:hover,
+.card-border:focus {
+    cursor: pointer;
+}
+.inner-card {
+    padding: 10px;
+}
+.hide {
+    opacity: 0;
+    transition: opacity .5s ease-in-out;
+}
+.show {
+    opacity: 1;
+}
